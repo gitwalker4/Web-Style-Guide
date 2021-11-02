@@ -1,0 +1,57 @@
+.btn {
+  margin-top: 15px;
+  width: 100%;
+  color: $white;
+  border: none;
+  padding: 10px 0;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+
+.default,
+.error,
+.info,
+.success,
+.warning {
+  transition: background-color .7s cubic-bezier(1,.09,.6,.91);
+}
+
+.default {
+  background-color: $secondary-color;
+
+  &:hover {
+    background-color: $secondary-color-lighten;
+  }
+}
+
+.error {
+  background-color: $error-color;
+
+  &:hover {
+    background-color: $error-color-lighten;
+  }
+}
+
+.info {
+  background-color: $info-color;
+
+  &:hover {
+    background-color: $info-color-lighten;
+  }
+}
+
+.success {
+  background-color: $success-color;
+
+  &:hover {
+    background-color: $success-color-lighten;
+  }
+}
+
+.warning {
+  background-color: $warning-color;
+
+  &:hover {
+    background-color: $warning-color-lighten;
+  }
+}
